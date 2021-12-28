@@ -1,0 +1,399 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-22T02:50:21.888Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4556619200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_def.Common_Step_Definitions.before_scenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "The test is to verify  the CEO name",
+        "description": "",
+        "id": "this-feature-is-to-get-the-ceo-name-from-the-orangehrm-app;the-test-is-to-verify--the-ceo-name",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9799339900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is logged in successfully and is on home page",
+            "match": {
+              "location": "com.Step_def.Verify_CEO_Name.the_user_is_logged_in_successfully_and_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8715410800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user clicks on the directory option from the menu bar",
+            "match": {
+              "location": "com.Step_def.Verify_CEO_Name.the_user_clicks_on_the_directory_option_from_the_menu_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135275500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user select the job title as \"Chief Executive Officer\" from the drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chief Executive Officer\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.Step_def.Verify_CEO_Name.the_user_select_the_job_title_as_from_the_drop_down(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925907100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks the search button",
+            "match": {
+              "location": "com.Step_def.Verify_CEO_Name.clicks_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44863600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should see the CEO name as \"John Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Smith\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.Step_def.Verify_CEO_Name.the_user_should_see_the_ceo_name_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetCEOName"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to get the CEO name from the ORANGEHRM App",
+    "description": "",
+    "id": "this-feature-is-to-get-the-ceo-name-from-the-orangehrm-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Verify_CEO_Name.feature",
+    "tags": [
+      {
+        "name": "@GetCEOName",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-22T02:50:46.144Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3555100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_def.Common_Step_Definitions.before_scenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 245596700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be fill the leave list",
+            "match": {
+              "location": "com.Step_def.Verify_Pending_Leave.user_should_be_fill_the_leave_list()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197247600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be select from date \"\" and to date \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.Step_def.Verify_Pending_Leave.user_should_be_select_from_date_and_to_date(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204620400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check the leave status",
+            "match": {
+              "location": "com.Step_def.Verify_Pending_Leave.check_the_leave_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185471600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the employee name \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.Step_def.Verify_Pending_Leave.enter_the_employee_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Step [Select the SubUnit] is defined with 1 parameters at \u0027com.Step_def.Verify_Pending_Leave.select_the_sub_unit(java.lang.String)\u0027.\nHowever, the gherkin step has 0 arguments.\nStep text: Select the SubUnit\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+              "duration": 1994200,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Select the SubUnit",
+            "match": {
+              "location": "com.Step_def.Verify_Pending_Leave.select_the_sub_unit(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click the SearchButton",
+            "match": {
+              "location": "com.Step_def.Verify_Pending_Leave.click_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PendingLeave"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Verify_Pending_Leave_Sheet.feature",
+    "tags": [
+      {
+        "name": "@PendingLeave",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-22T02:50:47.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2997100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Step_def.Common_Step_Definitions.before_scenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This test is to verify the pending Timesheet",
+        "description": "",
+        "id": "this-feature-is-to-get-pending-timesheet;this-test-is-to-verify-the-pending-timesheet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7974100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the homepage",
+            "match": {
+              "location": "com.Step_def.Verify_TimeSheet_StepDef.the_user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3848680700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on the time option from the menu",
+            "match": {
+              "location": "com.Step_def.Verify_TimeSheet_StepDef.the_user_clicks_on_the_time_option_from_the_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228884800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters the name as \"John Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Smith\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.Step_def.Verify_TimeSheet_StepDef.the_user_enters_the_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208707400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on view button",
+            "match": {
+              "location": "com.Step_def.Verify_TimeSheet_StepDef.clicks_on_view_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228423400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should see the message as \"\u003cmessage\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cmessage\u003e\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.Step_def.Verify_TimeSheet_StepDef.the_user_should_see_the_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196020700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "add the timesheet",
+            "match": {
+              "location": "com.Step_def.Verify_TimeSheet_StepDef.add_the_timesheet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198138500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Create the timesheet",
+            "match": {
+              "location": "com.Step_def.Verify_TimeSheet_StepDef.create_the_timesheet()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@timesheets"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to get pending Timesheet",
+    "description": "",
+    "id": "this-feature-is-to-get-pending-timesheet",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Verify_Pending_Time_Sheet.feature",
+    "tags": [
+      {
+        "name": "@timesheets",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

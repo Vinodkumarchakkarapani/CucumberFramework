@@ -1,0 +1,162 @@
+2021-12-24 08:51:41,877 [INFO ] com.Step_def.Common_Step_Definitions [main] Execution started
+2021-12-24 08:51:41,887 [INFO ] com.Step_def.Common_Step_Definitions [main] Instantiation the commonutils 
+2021-12-24 08:51:41,888 [INFO ] com.Step_def.Common_Step_Definitions [main] Loading the properties file
+2021-12-24 08:51:41,890 [INFO ] com.Step_def.Common_Step_Definitions [main] checking the driver is null or not 
+2021-12-24 08:51:41,890 [INFO ] com.Step_def.Common_Step_Definitions [main] driver  is null instanting 
+2021-12-24 08:51:52,447 [INFO ] com.Step_def.Verify_CEO_Name [main] the user is logged in successfully and is on home page
+2021-12-24 08:51:58,116 [INFO ] com.Step_def.Verify_CEO_Name [main] the user clicks on the directory option from the menu bar
+2021-12-24 08:51:58,219 [INFO ] com.Step_def.Verify_CEO_Name [main] the user select the job title as {string} from the drop down
+2021-12-24 08:51:59,005 [INFO ] com.Step_def.Verify_CEO_Name [main] clicks the search button
+2021-12-24 08:51:59,036 [INFO ] com.Step_def.Verify_CEO_Name [main] the user should see the CEO name as John Smith
+2021-12-24 08:51:59,054 [INFO ] com.Step_def.Common_Step_Definitions [main] Execution started
+2021-12-24 08:51:59,054 [INFO ] com.Step_def.Common_Step_Definitions [main] Instantiation the commonutils 
+2021-12-24 08:51:59,054 [INFO ] com.Step_def.Common_Step_Definitions [main] Loading the properties file
+2021-12-24 08:51:59,056 [INFO ] com.Step_def.Common_Step_Definitions [main] checking the driver is null or not 
+2021-12-24 08:52:02,695 [ERROR] com.Step_def.Verify_Pending_Leave [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="calToDate" type="text" name="leaveList[calToDate]" class="calendar hasDatepicker"> is not clickable at point (275, 298). Other element would receive the click: <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72b4be36345879ab78b034acd5fba092, clickElement {id=a09b4c6c-63a8-4f04-8137-1403993b1155}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61523/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (72b4be36345879ab78b034acd5fba092)] -> xpath: //input[@id='calToDate']]
+Session ID: 72b4be36345879ab78b034acd5fba092
+2021-12-24 08:52:03,996 [ERROR] com.Step_def.Verify_Pending_Leave [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="leaveList_chkSearchFilter_checkboxgroup_allcheck" type="checkbox"> is not clickable at point (212, 332). Other element would receive the click: <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">...</td>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72b4be36345879ab78b034acd5fba092, clickElement {id=36cc61cf-2030-4486-a8f5-8c1eae31e323}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61523/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (72b4be36345879ab78b034acd5fba092)] -> xpath: //input[@id='leaveList_chkSearchFilter_checkboxgroup_allcheck']]
+Session ID: 72b4be36345879ab78b034acd5fba092
+2021-12-24 08:52:04,240 [INFO ] com.Step_def.Common_Step_Definitions [main] Execution started
+2021-12-24 08:52:04,241 [INFO ] com.Step_def.Common_Step_Definitions [main] Instantiation the commonutils 
+2021-12-24 08:52:04,242 [INFO ] com.Step_def.Common_Step_Definitions [main] Loading the properties file
+2021-12-24 08:52:04,245 [INFO ] com.Step_def.Common_Step_Definitions [main] checking the driver is null or not 
+2021-12-24 08:52:06,992 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#employee"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72b4be36345879ab78b034acd5fba092, findElement {using=id, value=employee}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61523/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72b4be36345879ab78b034acd5fba092
+2021-12-24 08:52:07,217 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnView"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72b4be36345879ab78b034acd5fba092, findElement {using=id, value=btnView}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61523/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72b4be36345879ab78b034acd5fba092
+2021-12-24 08:52:07,397 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/div[1]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72b4be36345879ab78b034acd5fba092, findElement {using=xpath, value=//*[@id="content"]/div/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61523/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72b4be36345879ab78b034acd5fba092
+2021-12-24 08:52:07,570 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnAddTimesheet"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72b4be36345879ab78b034acd5fba092, findElement {using=id, value=btnAddTimesheet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61523/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72b4be36345879ab78b034acd5fba092
+2021-12-24 08:52:07,747 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='time_date']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [72b4be36345879ab78b034acd5fba092, findElement {using=xpath, value=//input[@id='time_date']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61523/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72b4be36345879ab78b034acd5fba092
+2021-12-24 08:55:38,354 [INFO ] com.Step_def.Common_Step_Definitions [main] Execution started
+2021-12-24 08:55:38,357 [INFO ] com.Step_def.Common_Step_Definitions [main] Instantiation the commonutils 
+2021-12-24 08:55:38,358 [INFO ] com.Step_def.Common_Step_Definitions [main] Loading the properties file
+2021-12-24 08:55:38,361 [INFO ] com.Step_def.Common_Step_Definitions [main] checking the driver is null or not 
+2021-12-24 08:55:38,362 [INFO ] com.Step_def.Common_Step_Definitions [main] driver  is null instanting 
+2021-12-24 08:55:49,746 [INFO ] com.Step_def.Verify_CEO_Name [main] the user is logged in successfully and is on home page
+2021-12-24 08:55:54,598 [INFO ] com.Step_def.Verify_CEO_Name [main] the user clicks on the directory option from the menu bar
+2021-12-24 08:55:54,718 [INFO ] com.Step_def.Verify_CEO_Name [main] the user select the job title as {string} from the drop down
+2021-12-24 08:55:55,580 [INFO ] com.Step_def.Verify_CEO_Name [main] clicks the search button
+2021-12-24 08:55:55,619 [INFO ] com.Step_def.Verify_CEO_Name [main] the user should see the CEO name as John Smith
+2021-12-24 08:55:55,653 [INFO ] com.Step_def.Common_Step_Definitions [main] Execution started
+2021-12-24 08:55:55,655 [INFO ] com.Step_def.Common_Step_Definitions [main] Instantiation the commonutils 
+2021-12-24 08:55:55,655 [INFO ] com.Step_def.Common_Step_Definitions [main] Loading the properties file
+2021-12-24 08:55:55,656 [INFO ] com.Step_def.Common_Step_Definitions [main] checking the driver is null or not 
+2021-12-24 08:55:58,926 [ERROR] com.Step_def.Verify_Pending_Leave [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="calToDate" type="text" name="leaveList[calToDate]" class="calendar hasDatepicker"> is not clickable at point (275, 298). Other element would receive the click: <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">...</div>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68800b26796fa1572352f83f292908dc, clickElement {id=2d178b9b-8349-4065-a037-3798bca26bc2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62925/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (68800b26796fa1572352f83f292908dc)] -> xpath: //input[@id='calToDate']]
+Session ID: 68800b26796fa1572352f83f292908dc
+2021-12-24 08:56:00,266 [ERROR] com.Step_def.Verify_Pending_Leave [main] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="leaveList_chkSearchFilter_checkboxgroup_allcheck" type="checkbox"> is not clickable at point (212, 332). Other element would receive the click: <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">...</td>
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68800b26796fa1572352f83f292908dc, clickElement {id=bcd54b7b-2f08-4c81-ae26-c129e474e16f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62925/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (68800b26796fa1572352f83f292908dc)] -> xpath: //input[@id='leaveList_chkSearchFilter_checkboxgroup_allcheck']]
+Session ID: 68800b26796fa1572352f83f292908dc
+2021-12-24 08:56:00,553 [INFO ] com.Step_def.Common_Step_Definitions [main] Execution started
+2021-12-24 08:56:00,553 [INFO ] com.Step_def.Common_Step_Definitions [main] Instantiation the commonutils 
+2021-12-24 08:56:00,553 [INFO ] com.Step_def.Common_Step_Definitions [main] Loading the properties file
+2021-12-24 08:56:00,554 [INFO ] com.Step_def.Common_Step_Definitions [main] checking the driver is null or not 
+2021-12-24 08:56:03,238 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#employee"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68800b26796fa1572352f83f292908dc, findElement {using=id, value=employee}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62925/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68800b26796fa1572352f83f292908dc
+2021-12-24 08:56:03,472 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnView"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68800b26796fa1572352f83f292908dc, findElement {using=id, value=btnView}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62925/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68800b26796fa1572352f83f292908dc
+2021-12-24 08:56:03,697 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="content"]/div/div/div[1]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68800b26796fa1572352f83f292908dc, findElement {using=xpath, value=//*[@id="content"]/div/div/div[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62925/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68800b26796fa1572352f83f292908dc
+2021-12-24 08:56:03,896 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnAddTimesheet"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68800b26796fa1572352f83f292908dc, findElement {using=id, value=btnAddTimesheet}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62925/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68800b26796fa1572352f83f292908dc
+2021-12-24 08:56:04,089 [ERROR] com.Step_def.Verify_TimeSheet_StepDef [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='time_date']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68800b26796fa1572352f83f292908dc, findElement {using=xpath, value=//input[@id='time_date']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\vinow\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62925}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62925/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68800b26796fa1572352f83f292908dc
